@@ -33,7 +33,7 @@ I have used Kaggle Video Games Sales data for this project. The questions I am t
 
 ## Results<a name="results"></a>
 
-The main findings of the code can be found at the post available [here](https://medium.com/@josh_2774/how-do-you-become-a-developer-5ef1c1c68711).
+The main findings of the code can be found at the post available [here](https://chinmaytuw.medium.com/analyzing-video-game-sales-since-1980-42d23ea7b59f).
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
