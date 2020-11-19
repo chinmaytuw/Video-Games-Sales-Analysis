@@ -4,7 +4,7 @@
 1. [Installation](#installation)
 2. [Business Understanding](#business)
 3. [Data Understanding](#data)
-4. [Prepare Data](#prep)
+4. [Data Preparation](#prep)
 5. [Results](#results)
 6. [File Descriptions](#files)
 7. [Licensing, Authors, and Acknowledgements](#licensing)
@@ -38,7 +38,7 @@ Below is the data dictionary:
     10. Other_Sales - Sales in the rest of the world (in millions)
     11. Global_Sales - Total worldwide sales.
 
-## Prepare Data: <a name="prep"></a>
+## Data Preparation: <a name="prep"></a>
 1. Upon doing some EDA, we noticed that almost 2% of rows had missing values. The Year column makes up almost for almost 1.6% of those rows whereas Publisher makes up for the remaining rows. Given that these amount to only ~370 rows, we ended up dropping them. Another option could have been imputing the rows with most frequent values.
 
 2. We also changed the data type for Year from object to datetime.
