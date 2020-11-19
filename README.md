@@ -4,9 +4,10 @@
 1. [Installation](#installation)
 2. [Business Understanding](#business)
 3. [Data Understanding](#data)
-3. [File Descriptions](#files)
-4. [Results](#results)
-5. [Licensing, Authors, and Acknowledgements](#licensing)
+4. [Prepare Data](#prep)
+5. [Results](#results)
+6. [File Descriptions](#files)
+7. [Licensing, Authors, and Acknowledgements](#licensing)
 
 ## Installation <a name="installation"></a>
 
@@ -37,14 +38,15 @@ Below is the data dictionary:
     10. Other_Sales - Sales in the rest of the world (in millions)
     11. Global_Sales - Total worldwide sales.
 
-## Prepare Data:
+## Prepare Data: <a name="prep"></a>
 1. Upon doing some EDA, we noticed that almost 2% of rows had missing values. The Year column makes up almost for almost 1.6% of those rows whereas Publisher makes up for the remaining rows. Given that these amount to only ~370 rows, we ended up dropping them. Another option could have been imputing the rows with most frequent values.
 
 2. We also changed the data type for Year from object to datetime.
 
+## Results<a name="results"></a>
+The main findings of the code can be found at the post available [here](https://chinmaytuw.medium.com/analyzing-video-game-sales-since-1980-42d23ea7b59f).
+
 ## File Descriptions <a name="files"></a>
-
-
     Data
     ├── vgsales.csv               # The csv with the necesary data
     
@@ -53,10 +55,6 @@ Below is the data dictionary:
     
     README.md
 
-
-## Results<a name="results"></a>
-
-The main findings of the code can be found at the post available [here](https://chinmaytuw.medium.com/analyzing-video-game-sales-since-1980-42d23ea7b59f).
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
